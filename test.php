@@ -17,6 +17,8 @@ function test($file, $e0, $isArray/*Onko $e0 array*/){
 	} else {
 		if($list != $e0)
 			echo "ERROR";
+		else
+			echo "OK";
 	}
 	return $result;
 }
